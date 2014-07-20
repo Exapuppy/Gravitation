@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OGL libs">
+      <UniqueIdentifier>{067edda2-6d5a-4ace-8cd5-60bb0f8d6ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physik">
+      <UniqueIdentifier>{74027d49-8f73-409b-878a-495aa334a7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL">
+      <UniqueIdentifier>{c24215b0-6f1f-42db-b51a-a90cf33c72b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Системные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{778a8079-cc7e-4201-ba81-a94d4c160328}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gravitation.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicCtrl.cpp">
+      <Filter>Physik</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Системные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Системные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Системные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravitation.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physik</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicCtrl.h">
+      <Filter>Physik</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Glaux.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="GLU32.LIB">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="glut32.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="glui32.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="OPENGL32.LIB">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="DevIL.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="ftgl_dynamic_MT.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="ILU.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+    <Library Include="ILUT.lib">
+      <Filter>OGL libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Gravitation.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="bitmap1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Logo.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gravitation.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
